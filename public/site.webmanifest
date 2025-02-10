@@ -1,0 +1,21 @@
+{
+  "name": "Suitami - AI-Powered Web3 Automation",
+  "short_name": "Suitami",
+  "description": "Empower your Web3 project with intelligent automation, seamless integrations, and advanced AI capabilities.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#001324",
+  "theme_color": "#001324",
+  "icons": [
+    {
+      "src": "/suitami-nav-logo-transparent.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/suitami-nav-logo-transparent.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

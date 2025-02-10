@@ -37,11 +37,10 @@ export default function Home() {
               </span>
             </div>
             <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-6 bg-gradient-to-r from-sky-500 to-blue-500 bg-clip-text text-transparent">
-              Unlock the Power of AI for Your Web3 Project
+              AI-Powered Automation for Web3 Success
             </h1>
             <p className="text-gray-400 text-xl mb-8 max-w-2xl mx-auto">
-              Empower your Web3 project with intelligent automation, seamless
-              integrations, and advanced AI capabilities.
+              Build smarter DeFi strategies, automate complex workflows, and scale your Web3 operations with AI-driven solutions.
             </p>
             <div className="flex justify-center gap-4 mb-12">
               <Link href="https://suitami.vercel.app">
