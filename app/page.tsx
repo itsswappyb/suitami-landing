@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { Bot, Globe, Languages, LayoutDashboard } from "lucide-react";
-import Image from "next/image";
+import { Bot } from "lucide-react";
 import { Icons } from "@/components/ui/icons";
 import { OrbitingCircles } from "@/components/magicui/orbiting-circles";
 
@@ -30,9 +29,7 @@ export default function Home() {
           </nav> */}
           <div className="flex items-center space-x-4">
             <Button variant="ghost">Log in</Button>
-            <Button className="bg-sky-500 hover:bg-sky-600">
-              Sign up
-            </Button>
+            <Button className="bg-sky-500 hover:bg-sky-600">Sign up</Button>
           </div>
         </div>
       </header>
@@ -58,7 +55,11 @@ export default function Home() {
               <Button size="lg" className="bg-sky-500 hover:bg-sky-600">
                 Get Started
               </Button>
-              <Button size="lg" variant="outline" className="border-sky-200 text-sky-700 hover:bg-sky-50">
+              <Button
+                size="lg"
+                variant="outline"
+                className="border-sky-200 text-sky-700 hover:bg-sky-50"
+              >
                 Learn More
               </Button>
             </div>
