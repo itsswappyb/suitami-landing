@@ -20,26 +20,9 @@ export default function Home() {
               className="h-24 w-auto"
             />
           </Link>
-          {/* <nav className="hidden md:flex items-center space-x-8">
-            <Link href="#" className="text-gray-400 hover:text-sky-500">
-              Features
-            </Link>
-            <Link href="#" className="text-gray-400 hover:text-sky-500">
-              Solutions
-            </Link>
-            <Link href="#" className="text-gray-400 hover:text-sky-500">
-              Integrations
-            </Link>
-            <Link href="#" className="text-gray-400 hover:text-sky-500">
-              Pricing
-            </Link>
-          </nav> */}
-          <div className="flex items-center space-x-4">
-            <Button variant="ghost" className="text-white hover:text-white/90">
-              Log in
-            </Button>
-            <Button className="bg-sky-500 hover:bg-sky-600">Sign up</Button>
-          </div>
+          <Link href="https://suitami.vercel.app">
+            <Button className="bg-sky-500 hover:bg-sky-600 text-white">Launch App</Button>
+          </Link>
         </div>
       </header>
 
@@ -61,16 +44,11 @@ export default function Home() {
               integrations, and advanced AI capabilities.
             </p>
             <div className="flex justify-center gap-4 mb-12">
-              <Button size="lg" className="bg-sky-500 hover:bg-sky-600">
-                Get Started
-              </Button>
-              <Button
-                size="lg"
-                variant="outline"
-                className="border-sky-200 text-sky-400 hover:bg-sky-500/10"
-              >
-                Learn More
-              </Button>
+              <Link href="https://suitami.vercel.app">
+                <Button size="lg" className="bg-sky-500 hover:bg-sky-600 text-white">
+                  Launch App
+                </Button>
+              </Link>
             </div>
             <div className="relative flex h-[500px] w-full flex-col items-center justify-center">
               <OrbitingCircles iconSize={40}>
