@@ -3,32 +3,41 @@ import { Button } from "@/components/ui/button";
 import { Bot } from "lucide-react";
 import { Icons } from "@/components/ui/icons";
 import { OrbitingCircles } from "@/components/magicui/orbiting-circles";
+import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-white to-sky-50">
-      <header className="fixed top-0 w-full bg-white/80 backdrop-blur-sm z-50 border-b">
+    <div className="min-h-screen bg-[#001324]">
+      <header className="fixed top-0 w-full bg-[#001324]/80 backdrop-blur-sm z-50 border-b border-white/10">
         <div className="container mx-auto flex items-center justify-between h-16 px-4">
           <Link href="/" className="flex items-center space-x-2">
-            <Bot className="h-8 w-8 text-sky-500" />
-            <span className="font-bold text-xl">Suitami</span>
+            <Image
+              src="/suitami-nav-logo-transparent.png"
+              alt="Suitami Logo"
+              width={120}
+              height={60}
+              priority
+              className="h-24 w-auto"
+            />
           </Link>
           {/* <nav className="hidden md:flex items-center space-x-8">
-            <Link href="#" className="text-gray-600 hover:text-sky-600">
+            <Link href="#" className="text-gray-400 hover:text-sky-500">
               Features
             </Link>
-            <Link href="#" className="text-gray-600 hover:text-sky-600">
+            <Link href="#" className="text-gray-400 hover:text-sky-500">
               Solutions
             </Link>
-            <Link href="#" className="text-gray-600 hover:text-sky-600">
+            <Link href="#" className="text-gray-400 hover:text-sky-500">
               Integrations
             </Link>
-            <Link href="#" className="text-gray-600 hover:text-sky-600">
+            <Link href="#" className="text-gray-400 hover:text-sky-500">
               Pricing
             </Link>
           </nav> */}
           <div className="flex items-center space-x-4">
-            <Button variant="ghost">Log in</Button>
+            <Button variant="ghost" className="text-white hover:text-white/90">
+              Log in
+            </Button>
             <Button className="bg-sky-500 hover:bg-sky-600">Sign up</Button>
           </div>
         </div>
@@ -38,16 +47,16 @@ export default function Home() {
         {/* Hero Section */}
         <section className="pt-32 pb-16 relative overflow-hidden">
           <div className="container mx-auto px-4 text-center relative z-10">
-            <div className="inline-flex items-center bg-sky-100 rounded-full px-4 py-1 mb-8">
+            <div className="inline-flex items-center bg-sky-500/10 rounded-full px-4 py-1 mb-8">
               <Bot className="w-4 h-4 text-sky-500 mr-2" />
-              <span className="text-sm text-sky-600 font-medium">
+              <span className="text-sm text-sky-400 font-medium">
                 Suitami AI
               </span>
             </div>
             <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-6 bg-gradient-to-r from-sky-500 to-blue-500 bg-clip-text text-transparent">
               Unlock the Power of AI for Your Web3 Project
             </h1>
-            <p className="text-gray-600 text-xl mb-8 max-w-2xl mx-auto">
+            <p className="text-gray-400 text-xl mb-8 max-w-2xl mx-auto">
               Empower your Web3 project with intelligent automation, seamless
               integrations, and advanced AI capabilities.
             </p>
@@ -58,7 +67,7 @@ export default function Home() {
               <Button
                 size="lg"
                 variant="outline"
-                className="border-sky-200 text-sky-700 hover:bg-sky-50"
+                className="border-sky-200 text-sky-400 hover:bg-sky-500/10"
               >
                 Learn More
               </Button>

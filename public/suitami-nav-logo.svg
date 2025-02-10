@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1000" height="200" viewBox="0 0 1000 200" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <g fill="#FFFFFF">
+        <path d="M200 100 Q 200 150, 150 150 L 50 150 Q 0 150, 0 100 L 0 50 Q 0 0, 50 0 L 150 0 Q 200 0, 200 50 Z"/>
+        <text x="250" y="120" font-family="Arial" font-size="120" font-weight="bold">Suitami</text>
+    </g>
+</svg>
