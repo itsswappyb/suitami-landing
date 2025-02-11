@@ -13,13 +13,13 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Suitami - AI-Powered Web3 Automation",
-  description: "Empower your Web3 project with intelligent automation, seamless integrations, and advanced AI capabilities.",
-  keywords: ["Web3", "AI", "Automation", "Blockchain", "Smart Contracts", "DeFi"],
+  title: "Suitami - Autonomous AI Agents for Web3 Communities",
+  description: "The intelligence layer that empowers your Web3 communities with autonomous AI agents, trained to manage, engage, and grow your ecosystem.",
+  keywords: ["Web3", "AI Agents", "Community Management", "Blockchain", "Autonomous", "AI", "Web3 Communities"],
   authors: [{ name: "Suitami" }],
   openGraph: {
-    title: "Suitami - AI-Powered Web3 Automation",
-    description: "Empower your Web3 project with intelligent automation, seamless integrations, and advanced AI capabilities.",
+    title: "Suitami - Autonomous AI Agents for Web3 Communities",
+    description: "The intelligence layer that empowers your Web3 communities with autonomous AI agents, trained to manage, engage, and grow your ecosystem.",
     url: "https://suitami.vercel.app",
     siteName: "Suitami",
     images: [
@@ -35,8 +35,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Suitami - AI-Powered Web3 Automation",
-    description: "Empower your Web3 project with intelligent automation, seamless integrations, and advanced AI capabilities.",
+    title: "Suitami - Autonomous AI Agents for Web3 Communities",
+    description: "The intelligence layer that empowers your Web3 communities with autonomous AI agents, trained to manage, engage, and grow your ecosystem.",
     images: ["/suitami-nav-logo-transparent.png"],
   },
   icons: {

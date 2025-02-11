@@ -21,7 +21,9 @@ export default function Home() {
             />
           </Link>
           <Link href="https://suitami.vercel.app">
-            <Button className="bg-sky-500 hover:bg-sky-600 text-white">Launch App</Button>
+            <Button className="bg-sky-500 hover:bg-sky-600 text-white">
+              Launch App
+            </Button>
           </Link>
         </div>
       </header>
@@ -37,14 +39,19 @@ export default function Home() {
               </span>
             </div>
             <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-6 bg-gradient-to-r from-sky-500 to-blue-500 bg-clip-text text-transparent">
-              AI-Powered Automation for Web3 Success
+              AI Agents for Autonomous Web3 Communities
             </h1>
             <p className="text-gray-400 text-xl mb-8 max-w-2xl mx-auto">
-              Build smarter DeFi strategies, automate complex workflows, and scale your Web3 operations with AI-driven solutions.
+              The intelligence layer that empowers your Web3 communities with
+              autonomous AI agents, trained to manage, engage, and grow your
+              ecosystem.
             </p>
             <div className="flex justify-center gap-4 mb-12">
               <Link href="https://suitami.vercel.app">
-                <Button size="lg" className="bg-sky-500 hover:bg-sky-600 text-white">
+                <Button
+                  size="lg"
+                  className="bg-sky-500 hover:bg-sky-600 text-white"
+                >
                   Launch App
                 </Button>
               </Link>
