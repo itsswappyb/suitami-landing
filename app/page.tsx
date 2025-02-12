@@ -5,6 +5,13 @@ import { Icons } from "@/components/ui/icons";
 import { OrbitingCircles } from "@/components/magicui/orbiting-circles";
 import Image from "next/image";
 
+/**
+ * Changelog:
+ * - Removed "powered by" section and associated logos from header
+ * - Added footer with Suiside squad attribution and skull icon
+ * - Introduced mini-orbits of AI bot icons around each social media icon
+ */
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-[#011829] via-[#030f1c] to-black">
@@ -21,23 +28,6 @@ export default function Home() {
                 className="h-24 w-auto"
               />
             </Link>
-            <div className="flex items-center gap-2 text-gray-400">
-              <span className="text-sm opacity-70">powered by:</span>
-              <Image
-                src="/eliza.png"
-                alt="Eliza Logo"
-                width={200}
-                height={80}
-                className="h-24 w-auto object-contain"
-              />
-              <Image
-                src="/sui.png"
-                alt="Sui Logo"
-                width={200}
-                height={80}
-                className="h-24 w-auto object-contain"
-              />
-            </div>
           </div>
           <div className="flex items-center gap-4">
             <Link 
@@ -70,7 +60,7 @@ export default function Home() {
                 Suitami AI
               </span>
             </div>
-            <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-6 bg-gradient-to-r from-sky-500 to-blue-500 bg-clip-text text-transparent">
+            <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-6 bg-gradient-to-br from-sky-400 via-blue-500 to-sky-600 bg-clip-text text-transparent">
               AI Agents for Autonomous Web3 Communities
             </h1>
             <p className="text-gray-400 text-xl mb-8 max-w-2xl mx-auto">
@@ -88,7 +78,29 @@ export default function Home() {
                 </Button>
               </Link>
             </div>
-            <div className="relative flex h-[500px] w-full flex-col items-center justify-center">
+
+            {/* Powered By Section */}
+            <div className="mb-4 -mt-8 overflow-hidden">
+              <span className="text-sm text-gray-400/70 block mb-0">Powered by:</span>
+              <div className="flex items-center justify-center gap-0 -mx-32 -mt-16">
+                <Image
+                  src="/eliza.png"
+                  alt="Eliza Logo"
+                  width={1000}
+                  height={400}
+                  className="h-80 w-auto object-contain opacity-60 hover:opacity-80 transition-opacity"
+                />
+                <Image
+                  src="/sui.png"
+                  alt="Sui Logo"
+                  width={1000}
+                  height={400}
+                  className="h-80 w-auto object-contain opacity-60 hover:opacity-80 transition-opacity -ml-12"
+                />
+              </div>
+            </div>
+
+            <div className="relative flex h-[500px] w-full flex-col items-center justify-center -mt-32">
               {/* Center Logo */}
               <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0">
                 <div className="w-32 h-32 rounded-full overflow-hidden bg-[#011829]/50">
@@ -102,7 +114,7 @@ export default function Home() {
                 </div>
               </div>
               
-              <OrbitingCircles iconSize={15} radius={84}>
+              <OrbitingCircles iconSize={15} radius={92}>
                 <div className="scale-[0.35]">
                   <Icons.telegram />
                 </div>
@@ -114,35 +126,35 @@ export default function Home() {
                 </div>
               </OrbitingCircles>
               <OrbitingCircles iconSize={15} radius={198} reverse speed={2}>
-                <div className="relative">
+                <div className="relative flex items-center justify-center">
                   <div className="scale-[0.35]">
                     <Icons.telegram />
                   </div>
                   <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-                    <OrbitingCircles iconSize={15} radius={41} speed={4}>
+                    <OrbitingCircles iconSize={15} radius={45} speed={4}>
                       <Bot className="text-sky-400/50" />
                       <Bot className="text-blue-400/40 rotate-180" />
                     </OrbitingCircles>
                   </div>
                 </div>
-                <div className="relative">
+                <div className="relative flex items-center justify-center">
                   <div className="scale-[0.35]">
                     <Icons.x />
                   </div>
                   <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-                    <OrbitingCircles iconSize={15} radius={41} speed={4}>
+                    <OrbitingCircles iconSize={15} radius={45} speed={4}>
                       <Bot className="text-sky-400/50" />
                       <Bot className="text-blue-400/40 rotate-120" />
                       <Bot className="text-sky-400/45 rotate-240" />
                     </OrbitingCircles>
                   </div>
                 </div>
-                <div className="relative">
+                <div className="relative flex items-center justify-center">
                   <div className="scale-[0.35]">
                     <Icons.discord />
                   </div>
                   <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-                    <OrbitingCircles iconSize={15} radius={41} speed={4}>
+                    <OrbitingCircles iconSize={15} radius={45} speed={4}>
                       <Bot className="text-sky-400/50" />
                     </OrbitingCircles>
                   </div>
@@ -152,11 +164,14 @@ export default function Home() {
           </div>
 
           {/* How it Works Section */}
-          <section className="py-16 relative">
+          <section className="pt-32 pb-16 relative">
             <div className="container mx-auto px-4 text-center">
-              <h2 className="text-3xl md:text-4xl font-bold mb-8 bg-gradient-to-r from-sky-500 to-blue-500 bg-clip-text text-transparent">
+              <h2 className="text-3xl md:text-4xl font-bold mb-3 bg-gradient-to-br from-sky-400 via-blue-500 to-sky-600 bg-clip-text text-transparent">
                 How it Works
               </h2>
+              <p className="text-gray-400 text-lg mb-8 max-w-2xl mx-auto">
+                Watch the live demo of the MVP to learn how Suitami will solve your community management and engagement
+              </p>
               <div className="max-w-4xl mx-auto bg-[#001324]/50 rounded-xl overflow-hidden shadow-2xl border border-white/10">
                 <div className="aspect-w-16 aspect-h-9">
                   <iframe

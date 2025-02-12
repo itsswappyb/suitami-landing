@@ -14,6 +14,7 @@ All notable changes to the Suitami Landing project will be documented in this fi
 - Footer with Suiside squad attribution and skull icon
 - Mini-orbits of AI bot icons around each social media icon
 - Center Suitami logo with circular frame and subtle opacity
+- Added "Powered by" section with Eliza and Sui logos above How it Works section
 
 ### Changed
 - Updated Twitter icon to use new X branding
@@ -26,6 +27,17 @@ All notable changes to the Suitami Landing project will be documented in this fi
 - Increased orbit sizes by 45% for better visual impact
 - Adjusted number of orbiting bot icons (2 for Telegram, 3 for X, 1 for Discord)
 - Fine-tuned bot icon colors and opacities for visual harmony
+- Increased inner orbit radius by additional 10% (from 84px to 92px)
+- Improved mini-orbit centering and increased radius by 10% (from 41px to 45px)
+- Enhanced heading gradients with three-color transitions (sky-400 → blue-500 → sky-600)
+- Added descriptive subtitle text under "How it Works" section
+- Increased Eliza and Sui logos size by 5x (from 64px to 320px height)
+- Optimized spacing throughout the layout:
+  - Reduced space between Launch App button and "Powered by" section
+  - Minimized margins around logos for tighter layout
+  - Positioned "Powered by" text directly above logos
+  - Added more spacing between orbiting circles and "How it Works" section
+  - Adjusted vertical rhythm for better visual flow
 
 ### Fixed
 - Resolved dependency issues with @tailwindcss/aspect-ratio plugin
