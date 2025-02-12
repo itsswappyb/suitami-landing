@@ -11,6 +11,9 @@ All notable changes to the Suitami Landing project will be documented in this fi
 - Hero section with animated orbiting social media icons
 - "How it Works" section with embedded YouTube video
 - Tailwind CSS aspect-ratio plugin for responsive video embedding
+- Footer with Suiside squad attribution and skull icon
+- Mini-orbits of AI bot icons around each social media icon
+- Center Suitami logo with circular frame and subtle opacity
 
 ### Changed
 - Updated Twitter icon to use new X branding
@@ -18,7 +21,11 @@ All notable changes to the Suitami Landing project will be documented in this fi
 - Improved logo sizing and spacing in header
 - Significantly increased size of Eliza and Sui logos for better prominence
 - Refined X icon container structure for improved alignment
-- Optimized header layout by removing redundant text and tightening spacing
+- Updated background to use a three-color gradient (#011829 → #030f1c → black)
+- Enhanced Launch App buttons with hover animations, scaling effects, and glowing shadows
+- Increased orbit sizes by 45% for better visual impact
+- Adjusted number of orbiting bot icons (2 for Telegram, 3 for X, 1 for Discord)
+- Fine-tuned bot icon colors and opacities for visual harmony
 
 ### Fixed
 - Resolved dependency issues with @tailwindcss/aspect-ratio plugin

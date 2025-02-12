@@ -1,14 +1,14 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { Bot } from "lucide-react";
+import { Bot, Skull } from "lucide-react";
 import { Icons } from "@/components/ui/icons";
 import { OrbitingCircles } from "@/components/magicui/orbiting-circles";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-[#001324]">
-      <header className="fixed top-0 w-full bg-[#001324]/80 backdrop-blur-sm z-50 border-b border-white/10">
+    <div className="min-h-screen bg-gradient-to-b from-[#011829] via-[#030f1c] to-black">
+      <header className="fixed top-0 w-full bg-[#011829]/80 backdrop-blur-sm z-50 border-b border-white/10">
         <div className="container mx-auto flex items-center justify-between h-16 px-4">
           <div className="flex items-center space-x-8">
             <Link href="/" className="flex items-center space-x-2">
@@ -52,7 +52,7 @@ export default function Home() {
               </div>
             </Link>
             <Link href="https://suitami.vercel.app">
-              <Button className="bg-sky-500 hover:bg-sky-600 text-white">
+              <Button className="bg-sky-500 hover:bg-sky-600 hover:scale-105 transition-all duration-300 text-white shadow-lg hover:shadow-sky-500/50">
                 Launch App
               </Button>
             </Link>
@@ -82,22 +82,71 @@ export default function Home() {
               <Link href="https://suitami.vercel.app">
                 <Button
                   size="lg"
-                  className="bg-sky-500 hover:bg-sky-600 text-white"
+                  className="bg-sky-500 hover:bg-sky-600 hover:scale-105 transition-all duration-300 text-white shadow-lg hover:shadow-sky-500/50"
                 >
                   Launch App
                 </Button>
               </Link>
             </div>
             <div className="relative flex h-[500px] w-full flex-col items-center justify-center">
-              <OrbitingCircles iconSize={40}>
-                <Icons.telegram />
-                <Icons.x />
-                <Icons.discord />
+              {/* Center Logo */}
+              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0">
+                <div className="w-32 h-32 rounded-full overflow-hidden bg-[#011829]/50">
+                  <Image
+                    src="/suitami-logo-square.png"
+                    alt="Suitami Logo"
+                    width={128}
+                    height={128}
+                    className="w-full h-full object-cover opacity-50"
+                  />
+                </div>
+              </div>
+              
+              <OrbitingCircles iconSize={15} radius={84}>
+                <div className="scale-[0.35]">
+                  <Icons.telegram />
+                </div>
+                <div className="scale-[0.35]">
+                  <Icons.x />
+                </div>
+                <div className="scale-[0.35]">
+                  <Icons.discord />
+                </div>
               </OrbitingCircles>
-              <OrbitingCircles iconSize={30} radius={100} reverse speed={2}>
-                <Icons.telegram />
-                <Icons.x />
-                <Icons.discord />
+              <OrbitingCircles iconSize={15} radius={198} reverse speed={2}>
+                <div className="relative">
+                  <div className="scale-[0.35]">
+                    <Icons.telegram />
+                  </div>
+                  <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                    <OrbitingCircles iconSize={15} radius={41} speed={4}>
+                      <Bot className="text-sky-400/50" />
+                      <Bot className="text-blue-400/40 rotate-180" />
+                    </OrbitingCircles>
+                  </div>
+                </div>
+                <div className="relative">
+                  <div className="scale-[0.35]">
+                    <Icons.x />
+                  </div>
+                  <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                    <OrbitingCircles iconSize={15} radius={41} speed={4}>
+                      <Bot className="text-sky-400/50" />
+                      <Bot className="text-blue-400/40 rotate-120" />
+                      <Bot className="text-sky-400/45 rotate-240" />
+                    </OrbitingCircles>
+                  </div>
+                </div>
+                <div className="relative">
+                  <div className="scale-[0.35]">
+                    <Icons.discord />
+                  </div>
+                  <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                    <OrbitingCircles iconSize={15} radius={41} speed={4}>
+                      <Bot className="text-sky-400/50" />
+                    </OrbitingCircles>
+                  </div>
+                </div>
               </OrbitingCircles>
             </div>
           </div>
@@ -157,6 +206,13 @@ export default function Home() {
           </div>
         </section> */}
       </main>
+
+      <footer className="py-4 text-center">
+        <div className="flex items-center justify-center gap-2 text-gray-500 text-sm">
+          <Skull className="w-4 h-4" />
+          <span>by Suiside squad for Sui Agent Typhoon 2025</span>
+        </div>
+      </footer>
     </div>
   );
 }
