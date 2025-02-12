@@ -38,6 +38,9 @@ All notable changes to the Suitami Landing project will be documented in this fi
   - Positioned "Powered by" text directly above logos
   - Added more spacing between orbiting circles and "How it Works" section
   - Adjusted vertical rhythm for better visual flow
+- Enhanced center logo in orbits:
+  - Increased size by 50% (from 128px to 192px)
+  - Reduced opacity by 35% (from 50% to 25%) for subtler background presence
 
 ### Fixed
 - Resolved dependency issues with @tailwindcss/aspect-ratio plugin

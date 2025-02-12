@@ -103,13 +103,13 @@ export default function Home() {
             <div className="relative flex h-[500px] w-full flex-col items-center justify-center -mt-32">
               {/* Center Logo */}
               <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0">
-                <div className="w-32 h-32 rounded-full overflow-hidden bg-[#011829]/50">
+                <div className="w-48 h-48 rounded-full overflow-hidden bg-[#011829]/50">
                   <Image
                     src="/suitami-logo-square.png"
                     alt="Suitami Logo"
-                    width={128}
-                    height={128}
-                    className="w-full h-full object-cover opacity-50"
+                    width={192}
+                    height={192}
+                    className="w-full h-full object-cover opacity-25"
                   />
                 </div>
               </div>
