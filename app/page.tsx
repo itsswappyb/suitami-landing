@@ -115,14 +115,29 @@ export default function Home() {
               </div>
               
               <OrbitingCircles iconSize={15} radius={92}>
-                <div className="scale-[0.35]">
-                  <Icons.telegram />
+                <div className="relative group">
+                  <div className="scale-[0.35] relative">
+                    <Icons.telegram />
+                  </div>
+                  <span className="absolute -top-8 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-200 whitespace-nowrap bg-[#011829]/90 text-sky-400/90 text-sm px-3 py-1 rounded-full border border-sky-500/10">
+                    Telegram Agent
+                  </span>
                 </div>
-                <div className="scale-[0.35]">
-                  <Icons.x />
+                <div className="relative group">
+                  <div className="scale-[0.35] relative">
+                    <Icons.x />
+                  </div>
+                  <span className="absolute -top-8 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-200 whitespace-nowrap bg-[#011829]/90 text-sky-400/90 text-sm px-3 py-1 rounded-full border border-sky-500/10">
+                    X Agent
+                  </span>
                 </div>
-                <div className="scale-[0.35]">
-                  <Icons.discord />
+                <div className="relative group">
+                  <div className="scale-[0.35] relative">
+                    <Icons.discord />
+                  </div>
+                  <span className="absolute -top-8 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-200 whitespace-nowrap bg-[#011829]/90 text-sky-400/90 text-sm px-3 py-1 rounded-full border border-sky-500/10">
+                    Discord Agent
+                  </span>
                 </div>
               </OrbitingCircles>
               <OrbitingCircles iconSize={15} radius={198} reverse speed={2}>

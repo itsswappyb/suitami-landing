@@ -15,6 +15,7 @@ All notable changes to the Suitami Landing project will be documented in this fi
 - Mini-orbits of AI bot icons around each social media icon
 - Center Suitami logo with circular frame and subtle opacity
 - Added "Powered by" section with Eliza and Sui logos above How it Works section
+- Added hover tooltips to inner orbit social media icons showing agent types
 
 ### Changed
 - Updated Twitter icon to use new X branding
