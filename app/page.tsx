@@ -141,10 +141,13 @@ export default function Home() {
                 </div>
               </OrbitingCircles>
               <OrbitingCircles iconSize={15} radius={198} reverse speed={2}>
-                <div className="relative flex items-center justify-center">
-                  <div className="scale-[0.35]">
+                <div className="relative group flex items-center justify-center">
+                  <div className="scale-[0.35] relative">
                     <Icons.telegram />
                   </div>
+                  <span className="absolute -top-8 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-200 whitespace-nowrap bg-[#011829]/90 text-sky-400/90 text-sm px-3 py-1 rounded-full border border-sky-500/10">
+                    Telegram Engagement
+                  </span>
                   <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
                     <OrbitingCircles iconSize={15} radius={45} speed={4}>
                       <Bot className="text-sky-400/50" />
@@ -152,10 +155,13 @@ export default function Home() {
                     </OrbitingCircles>
                   </div>
                 </div>
-                <div className="relative flex items-center justify-center">
-                  <div className="scale-[0.35]">
+                <div className="relative group flex items-center justify-center">
+                  <div className="scale-[0.35] relative">
                     <Icons.x />
                   </div>
+                  <span className="absolute -top-8 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-200 whitespace-nowrap bg-[#011829]/90 text-sky-400/90 text-sm px-3 py-1 rounded-full border border-sky-500/10">
+                    X Engagement
+                  </span>
                   <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
                     <OrbitingCircles iconSize={15} radius={45} speed={4}>
                       <Bot className="text-sky-400/50" />
@@ -164,10 +170,13 @@ export default function Home() {
                     </OrbitingCircles>
                   </div>
                 </div>
-                <div className="relative flex items-center justify-center">
-                  <div className="scale-[0.35]">
+                <div className="relative group flex items-center justify-center">
+                  <div className="scale-[0.35] relative">
                     <Icons.discord />
                   </div>
+                  <span className="absolute -top-8 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-200 whitespace-nowrap bg-[#011829]/90 text-sky-400/90 text-sm px-3 py-1 rounded-full border border-sky-500/10">
+                    Discord Engagement
+                  </span>
                   <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
                     <OrbitingCircles iconSize={15} radius={45} speed={4}>
                       <Bot className="text-sky-400/50" />
