@@ -23,7 +23,11 @@ All notable changes to the Suitami Landing project will be documented in this fi
 - Significantly increased size of Eliza and Sui logos for better prominence
 - Refined X icon container structure for improved alignment
 - Updated background to use a three-color gradient (#011829 → #030f1c → black)
-- Enhanced Launch App buttons with hover animations, scaling effects, and glowing shadows
+- Enhanced Launch App buttons for better visibility and interaction:
+  - Improved text readability with semibold weight and better tracking
+  - Added subtle border and refined hover effects
+  - Optimized button padding and shadow effects
+  - Adjusted color contrast for better visual hierarchy
 - Increased orbit sizes by 45% for better visual impact
 - Adjusted number of orbiting bot icons (2 for Telegram, 3 for X, 1 for Discord)
 - Fine-tuned bot icon colors and opacities for visual harmony

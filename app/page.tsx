@@ -42,7 +42,7 @@ export default function Home() {
               </div>
             </Link>
             <Link href="https://suitami.vercel.app">
-              <Button className="bg-sky-500 hover:bg-sky-600 hover:scale-105 transition-all duration-300 text-white shadow-lg hover:shadow-sky-500/50">
+              <Button className="bg-sky-600 hover:bg-sky-500 hover:scale-105 transition-all duration-300 text-white font-semibold shadow-lg shadow-sky-500/20 hover:shadow-sky-500/40 border border-sky-400/20">
                 Launch App
               </Button>
             </Link>
@@ -72,7 +72,7 @@ export default function Home() {
               <Link href="https://suitami.vercel.app">
                 <Button
                   size="lg"
-                  className="bg-sky-500 hover:bg-sky-600 hover:scale-105 transition-all duration-300 text-white shadow-lg hover:shadow-sky-500/50"
+                  className="bg-sky-600 hover:bg-sky-500 hover:scale-105 transition-all duration-300 text-white font-semibold tracking-wide shadow-lg shadow-sky-500/20 hover:shadow-sky-500/40 border border-sky-400/20 px-8"
                 >
                   Launch App
                 </Button>
