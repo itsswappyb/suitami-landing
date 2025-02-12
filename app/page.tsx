@@ -101,21 +101,29 @@ export default function Home() {
             </div>
 
             <div className="relative flex h-[500px] w-full flex-col items-center justify-center -mt-32">
-              {/* Center Logo */}
-              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0">
-                <div className="w-48 h-48 rounded-full overflow-hidden bg-[#011829]/50">
+              {/* Ring-shaped hover area between orbits */}
+              <div className="absolute w-[400px] h-[400px] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full group/outer hover:bg-[#011829]/5 transition-colors">
+                {/* Inner cutout to prevent hover in center */}
+                <div className="absolute w-[184px] h-[184px] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#030f1c]"></div>
+                <span className="absolute text-gray-500/50 text-sm font-medium left-1/2 translate-y-[420px] -translate-x-1/2 opacity-0 group-hover/outer:opacity-100 transition-opacity duration-300 whitespace-nowrap">Community Engagement</span>
+              </div>
+
+              {/* Center Logo with inner hover area */}
+              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                <div className="w-48 h-48 rounded-full overflow-hidden bg-[#011829]/50 group/inner hover:bg-[#011829]/60 transition-colors">
                   <Image
                     src="/suitami-logo-square.png"
                     alt="Suitami Logo"
                     width={192}
                     height={192}
-                    className="w-full h-full object-cover opacity-25"
+                    className="w-full h-full object-cover opacity-25 group-hover/inner:opacity-0 transition-opacity duration-300"
                   />
+                  <span className="absolute text-gray-500/50 text-sm font-medium left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 opacity-0 group-hover/inner:opacity-100 transition-opacity duration-300 whitespace-nowrap">Community Management</span>
                 </div>
               </div>
               
               <OrbitingCircles iconSize={15} radius={92}>
-                <div className="relative group">
+                <div className="relative group w-6 h-6 flex items-center justify-center">
                   <div className="scale-[0.35] relative">
                     <Icons.telegram />
                   </div>
@@ -123,7 +131,7 @@ export default function Home() {
                     Telegram Agent
                   </span>
                 </div>
-                <div className="relative group">
+                <div className="relative group w-6 h-6 flex items-center justify-center">
                   <div className="scale-[0.35] relative">
                     <Icons.x />
                   </div>
@@ -131,7 +139,7 @@ export default function Home() {
                     X Agent
                   </span>
                 </div>
-                <div className="relative group">
+                <div className="relative group w-6 h-6 flex items-center justify-center">
                   <div className="scale-[0.35] relative">
                     <Icons.discord />
                   </div>
@@ -140,8 +148,9 @@ export default function Home() {
                   </span>
                 </div>
               </OrbitingCircles>
+
               <OrbitingCircles iconSize={15} radius={198} reverse speed={2}>
-                <div className="relative group flex items-center justify-center">
+                <div className="relative group w-6 h-6 flex items-center justify-center">
                   <div className="scale-[0.35] relative">
                     <Icons.telegram />
                   </div>
@@ -155,7 +164,7 @@ export default function Home() {
                     </OrbitingCircles>
                   </div>
                 </div>
-                <div className="relative group flex items-center justify-center">
+                <div className="relative group w-6 h-6 flex items-center justify-center">
                   <div className="scale-[0.35] relative">
                     <Icons.x />
                   </div>
@@ -170,7 +179,7 @@ export default function Home() {
                     </OrbitingCircles>
                   </div>
                 </div>
-                <div className="relative group flex items-center justify-center">
+                <div className="relative group w-6 h-6 flex items-center justify-center">
                   <div className="scale-[0.35] relative">
                     <Icons.discord />
                   </div>

@@ -18,6 +18,9 @@ All notable changes to the Suitami Landing project will be documented in this fi
 - Added hover tooltips to orbit icons:
   - Inner orbit: Agent type labels (Telegram/X/Discord Agent)
   - Outer orbit: Engagement labels (Telegram/X/Discord Engagement)
+- Added descriptive labels below orbits:
+  - Inner orbit: "Community Management"
+  - Outer orbit: "Community Engagement"
 
 ### Changed
 - Updated Twitter icon to use new X branding
@@ -48,6 +51,11 @@ All notable changes to the Suitami Landing project will be documented in this fi
 - Enhanced center logo in orbits:
   - Increased size by 50% (from 128px to 192px)
   - Reduced opacity by 35% (from 50% to 25%) for subtler background presence
+- Improved hover interactions:
+  - Added hover effect to make center logo fully transparent when showing "Community Management" text
+  - Reduced hover areas for social media icons to prevent accidental triggers
+  - Added ring-shaped hover area between orbits for "Community Engagement" text
+  - Positioned hover texts strategically for better readability
 
 ### Fixed
 - Resolved dependency issues with @tailwindcss/aspect-ratio plugin
