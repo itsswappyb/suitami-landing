@@ -13,14 +13,14 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Aiden - Autonomous AI Agents for Web3 Communities",
-  description: "The intelligence layer that empowers your Web3 communities with autonomous AI agents, trained to manage, engage, and grow your ecosystem.",
+  title: "Aiden - The Management System for all your AI Agents",
+  description: "Deploy, train, manage and nurture your AI agents. Automate DAO workflows.",
   keywords: ["Web3", "AI Agents", "Community Management", "Blockchain", "Autonomous", "AI", "Web3 Communities"],
   authors: [{ name: "Aiden" }],
   openGraph: {
-    title: "Aiden - Autonomous AI Agents for Web3 Communities",
-    description: "The intelligence layer that empowers your Web3 communities with autonomous AI agents, trained to manage, engage, and grow your ecosystem.",
-    url: "https://aiden.vercel.app",
+    title: "Aiden - The Management System for all your AI Agents",
+    description: "Deploy, train, manage and nurture your AI agents. Automate DAO workflows.",
+    url: "https://aiden.so",
     siteName: "Aiden",
     images: [
       {
@@ -35,8 +35,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Aiden - Autonomous AI Agents for Web3 Communities",
-    description: "The intelligence layer that empowers your Web3 communities with autonomous AI agents, trained to manage, engage, and grow your ecosystem.",
+    title: "Aiden - The Management System for all your AI Agents",
+    description: "Deploy, train, manage and nurture your AI agents. Automate DAO workflows.",
     images: ["/aiden-logo.png"],
   },
   icons: {
