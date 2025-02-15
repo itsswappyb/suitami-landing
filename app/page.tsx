@@ -185,6 +185,19 @@ export default function Home() {
               <p className="text-gray-400 text-lg mb-8 max-w-2xl mx-auto">
                 Aiden demo submission for Sozuhaus
               </p>
+              
+              {/* Architecture Diagram */}
+              <div className="max-w-4xl mx-auto mb-16">
+                <Image
+                  src="/aiden-architecture.png"
+                  alt="Aiden Architecture"
+                  width={1200}
+                  height={675}
+                  className="w-full h-auto rounded-xl border border-white/10 shadow-2xl"
+                  priority
+                />
+              </div>
+
               <div className="max-w-4xl mx-auto bg-[#001324]/50 rounded-xl overflow-hidden shadow-2xl border border-white/10">
                 <div className="aspect-w-16 aspect-h-9">
                   <iframe
