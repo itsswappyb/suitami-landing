@@ -189,7 +189,7 @@ export default function Home() {
               {/* Architecture Diagram */}
               <div className="max-w-4xl mx-auto mb-16">
                 <Image
-                  src="/aiden-architecture.png"
+                  src="/Screenshot 2025-02-16 at 7.15.51.png"
                   alt="Aiden Architecture"
                   width={1200}
                   height={675}
