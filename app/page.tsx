@@ -20,8 +20,8 @@ export default function Home() {
           <div className="flex items-center space-x-8">
             <Link href="/" className="flex items-center space-x-2">
               <Image
-                src="/suitami-nav-logo-transparent.png"
-                alt="Suitami Logo"
+                src="/aiden-logo.png"
+                alt="Aiden Logo"
                 width={120}
                 height={60}
                 priority
@@ -30,18 +30,7 @@ export default function Home() {
             </Link>
           </div>
           <div className="flex items-center gap-4">
-            <Link 
-              href="https://x.com/suitami_AI" 
-              target="_blank"
-              className="text-gray-400 hover:text-sky-400 transition-colors flex items-center h-10"
-            >
-              <div className="w-6 h-6 flex items-center justify-center">
-                <div className="scale-[0.35]">
-                  <Icons.x />
-                </div>
-              </div>
-            </Link>
-            <Link href="https://suitami.vercel.app">
+            <Link href="https://aiden.so">
               <Button className="bg-sky-600 hover:bg-sky-500 hover:scale-105 transition-all duration-300 text-white font-semibold shadow-lg shadow-sky-500/20 hover:shadow-sky-500/40 border border-sky-400/20">
                 Launch App
               </Button>
@@ -57,7 +46,7 @@ export default function Home() {
             <div className="inline-flex items-center bg-sky-500/10 rounded-full px-4 py-1 mb-8">
               <Bot className="w-4 h-4 text-sky-500 mr-2" />
               <span className="text-sm text-sky-400 font-medium">
-                Suitami AI
+                Aiden AI
               </span>
             </div>
             <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-6 bg-gradient-to-br from-sky-400 via-blue-500 to-sky-600 bg-clip-text text-transparent">
@@ -69,7 +58,7 @@ export default function Home() {
               ecosystem.
             </p>
             <div className="flex justify-center gap-4 mb-12">
-              <Link href="https://suitami.vercel.app">
+              <Link href="https://aiden.so">
                 <Button
                   size="lg"
                   className="bg-sky-600 hover:bg-sky-500 hover:scale-105 transition-all duration-300 text-white font-semibold tracking-wide shadow-lg shadow-sky-500/20 hover:shadow-sky-500/40 border border-sky-400/20 px-8"
@@ -80,22 +69,15 @@ export default function Home() {
             </div>
 
             {/* Powered By Section */}
-            <div className="mb-4 -mt-8 overflow-hidden">
+            <div className="mb-4 -mt-12 overflow-hidden">
               <span className="text-sm text-gray-400/70 block mb-0">Powered by:</span>
-              <div className="flex items-center justify-center gap-0 -mx-32 -mt-16">
+              <div className="flex items-center justify-center">
                 <Image
                   src="/eliza.png"
                   alt="Eliza Logo"
                   width={1000}
                   height={400}
-                  className="h-80 w-auto object-contain opacity-60 hover:opacity-80 transition-opacity"
-                />
-                <Image
-                  src="/sui.png"
-                  alt="Sui Logo"
-                  width={1000}
-                  height={400}
-                  className="h-80 w-auto object-contain opacity-60 hover:opacity-80 transition-opacity -ml-12"
+                  className="h-96 w-auto object-contain opacity-60 hover:opacity-80 transition-opacity"
                 />
               </div>
             </div>
@@ -112,8 +94,8 @@ export default function Home() {
               <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
                 <div className="w-48 h-48 rounded-full overflow-hidden bg-[#011829]/50 group/inner hover:bg-[#011829]/60 transition-colors">
                   <Image
-                    src="/suitami-logo-square.png"
-                    alt="Suitami Logo"
+                    src="/aiden-logo.png"
+                    alt="Aiden Logo"
                     width={192}
                     height={192}
                     className="w-full h-full object-cover opacity-25 group-hover/inner:opacity-0 transition-opacity duration-300"
@@ -203,13 +185,13 @@ export default function Home() {
                 How it Works
               </h2>
               <p className="text-gray-400 text-lg mb-8 max-w-2xl mx-auto">
-                Watch the live demo of the MVP to learn how Suitami will solve your community management and engagement
+                Aiden demo submission for Sozuhaus
               </p>
               <div className="max-w-4xl mx-auto bg-[#001324]/50 rounded-xl overflow-hidden shadow-2xl border border-white/10">
                 <div className="aspect-w-16 aspect-h-9">
                   <iframe
-                    src="https://www.youtube.com/embed/Jd1-VmyZilk"
-                    title="How Suitami Works"
+                    src={undefined}
+                    title="Aiden Demo"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
                     className="w-full h-full"
@@ -254,13 +236,6 @@ export default function Home() {
           </div>
         </section> */}
       </main>
-
-      <footer className="py-4 text-center">
-        <div className="flex items-center justify-center gap-2 text-gray-500 text-sm">
-          <Skull className="w-4 h-4" />
-          <span>by Suiside squad for Sui Agent Typhoon 2025</span>
-        </div>
-      </footer>
     </div>
   );
 }

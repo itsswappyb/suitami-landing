@@ -23,6 +23,11 @@ All notable changes to the Suitami Landing project will be documented in this fi
   - Outer orbit: "Community Engagement"
 
 ### Changed
+- Removed X social media link from header
+- Removed Suiside squad footer
+- Removed Sui logo from "Powered by" section
+- Rebranded from Suitami to Aiden
+- Updated center logo with new Aiden design
 - Updated Twitter icon to use new X branding
 - Enhanced header styling with backdrop blur and border
 - Improved logo sizing and spacing in header
@@ -56,6 +61,7 @@ All notable changes to the Suitami Landing project will be documented in this fi
   - Reduced hover areas for social media icons to prevent accidental triggers
   - Added ring-shaped hover area between orbits for "Community Engagement" text
   - Positioned hover texts strategically for better readability
+- Increased Eliza logo size to 384px height and adjusted position
 
 ### Fixed
 - Resolved dependency issues with @tailwindcss/aspect-ratio plugin

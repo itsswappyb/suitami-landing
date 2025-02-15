@@ -13,21 +13,21 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Suitami - Autonomous AI Agents for Web3 Communities",
+  title: "Aiden - Autonomous AI Agents for Web3 Communities",
   description: "The intelligence layer that empowers your Web3 communities with autonomous AI agents, trained to manage, engage, and grow your ecosystem.",
   keywords: ["Web3", "AI Agents", "Community Management", "Blockchain", "Autonomous", "AI", "Web3 Communities"],
-  authors: [{ name: "Suitami" }],
+  authors: [{ name: "Aiden" }],
   openGraph: {
-    title: "Suitami - Autonomous AI Agents for Web3 Communities",
+    title: "Aiden - Autonomous AI Agents for Web3 Communities",
     description: "The intelligence layer that empowers your Web3 communities with autonomous AI agents, trained to manage, engage, and grow your ecosystem.",
-    url: "https://suitami.vercel.app",
-    siteName: "Suitami",
+    url: "https://aiden.vercel.app",
+    siteName: "Aiden",
     images: [
       {
-        url: "/suitami-nav-logo-transparent.png",
+        url: "/aiden-logo.png",
         width: 1200,
         height: 630,
-        alt: "Suitami Logo",
+        alt: "Aiden Logo",
       },
     ],
     locale: "en_US",
@@ -35,23 +35,23 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Suitami - Autonomous AI Agents for Web3 Communities",
+    title: "Aiden - Autonomous AI Agents for Web3 Communities",
     description: "The intelligence layer that empowers your Web3 communities with autonomous AI agents, trained to manage, engage, and grow your ecosystem.",
-    images: ["/suitami-nav-logo-transparent.png"],
+    images: ["/aiden-logo.png"],
   },
   icons: {
     icon: [
       { url: "/favicon.ico" },
-      { url: "/suitami-nav-logo-transparent.png", type: "image/png", sizes: "32x32" },
+      { url: "/aiden-logo.png", type: "image/png", sizes: "32x32" },
     ],
     apple: [
-      { url: "/suitami-nav-logo-transparent.png", sizes: "180x180", type: "image/png" },
+      { url: "/aiden-logo.png", sizes: "180x180", type: "image/png" },
     ],
   },
   manifest: "/site.webmanifest",
   viewport: "width=device-width, initial-scale=1",
   themeColor: "#001324",
-  metadataBase: new URL("https://suitami.vercel.app"),
+  metadataBase: new URL("https://aiden.vercel.app"),
 };
 
 export default function RootLayout({
