@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { Bot, Skull } from "lucide-react";
+import { Bot } from "lucide-react";
 import { Icons } from "@/components/ui/icons";
 import { OrbitingCircles } from "@/components/magicui/orbiting-circles";
 import Image from "next/image";
