@@ -50,12 +50,10 @@ export default function Home() {
               </span>
             </div>
             <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-6 bg-gradient-to-br from-sky-400 via-blue-500 to-sky-600 bg-clip-text text-transparent">
-              AI Agents for Autonomous Web3 Communities
+              Aiden - The Management System for all your AI Agents
             </h1>
             <p className="text-gray-400 text-xl mb-8 max-w-2xl mx-auto">
-              The intelligence layer that empowers your Web3 communities with
-              autonomous AI agents, trained to manage, engage, and grow your
-              ecosystem.
+              Deploy, train, manage and nurture your AI agents. Automate DAO workflows.
             </p>
             <div className="flex justify-center gap-4 mb-12">
               <Link href="https://aiden.so">
@@ -190,7 +188,7 @@ export default function Home() {
               <div className="max-w-4xl mx-auto bg-[#001324]/50 rounded-xl overflow-hidden shadow-2xl border border-white/10">
                 <div className="aspect-w-16 aspect-h-9">
                   <iframe
-                    src={undefined}
+                    src="https://www.youtube.com/embed/placeholder_video_id"
                     title="Aiden Demo"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
