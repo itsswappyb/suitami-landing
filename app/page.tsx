@@ -179,34 +179,46 @@ export default function Home() {
           {/* How it Works Section */}
           <section className="pt-32 pb-16 relative">
             <div className="container mx-auto px-4 text-center">
-              <h2 className="text-3xl md:text-4xl font-bold mb-3 bg-gradient-to-br from-sky-400 via-blue-500 to-sky-600 bg-clip-text text-transparent">
-                How it Works
-              </h2>
-              <p className="text-gray-400 text-lg mb-8 max-w-2xl mx-auto">
-                Aiden demo submission for Sozuhaus
-              </p>
-              
-              {/* Architecture Diagram */}
-              <div className="max-w-4xl mx-auto mb-16">
-                <Image
-                  src="/Screenshot 2025-02-16 at 7.15.51.png"
-                  alt="Aiden Architecture"
-                  width={1200}
-                  height={675}
-                  className="w-full h-auto rounded-xl border border-white/10 shadow-2xl"
-                  priority
-                />
+              {/* Architecture Section */}
+              <div>
+                <h3 className="text-2xl md:text-3xl font-bold mb-3 bg-gradient-to-br from-sky-400 via-blue-500 to-sky-600 bg-clip-text text-transparent">
+                  Architecture Overview
+                </h3>
+                <p className="text-gray-400 text-lg mb-8 max-w-2xl mx-auto">
+                  A comprehensive platform for creating, training, and managing AI agents
+                </p>
+                <div className="max-w-4xl mx-auto">
+                  <div className="overflow-hidden rounded-xl border border-white/10 shadow-2xl">
+                    <Image
+                      src="/Screenshot 2025-02-16 at 7.15.51.png"
+                      alt="Aiden Architecture"
+                      width={1200}
+                      height={675}
+                      className="w-[110%] h-auto scale-110 object-cover"
+                      priority
+                    />
+                  </div>
+                </div>
               </div>
 
-              <div className="max-w-4xl mx-auto bg-[#001324]/50 rounded-xl overflow-hidden shadow-2xl border border-white/10">
-                <div className="aspect-w-16 aspect-h-9">
-                  <iframe
-                    src="https://www.youtube.com/embed/placeholder_video_id"
-                    title="Aiden Demo"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                    className="w-full h-full"
-                  />
+              {/* Video Section */}
+              <div>
+                <h3 className="text-2xl md:text-3xl font-bold mb-3 bg-gradient-to-br from-sky-400 via-blue-500 to-sky-600 bg-clip-text text-transparent">
+                  Demo Video
+                </h3>
+                <p className="text-gray-400 text-lg mb-8 max-w-2xl mx-auto">
+                  Watch how Aiden transforms Web3 community management
+                </p>
+                <div className="max-w-4xl mx-auto bg-[#001324]/50 rounded-xl overflow-hidden shadow-2xl border border-white/10">
+                  <div className="aspect-w-16 aspect-h-9">
+                    <iframe
+                      src="https://www.youtube.com/embed/placeholder_video_id"
+                      title="Aiden Demo"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                      className="w-full h-full"
+                    />
+                  </div>
                 </div>
               </div>
             </div>
