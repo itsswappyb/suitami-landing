@@ -177,7 +177,7 @@ export default function Home() {
           </div>
 
           {/* How it Works Section */}
-          <section className="pt-32 pb-16 relative">
+          <section className="pt-24 pb-16 relative">
             <div className="container mx-auto px-4 text-center">
               {/* Architecture Section */}
               <div>
@@ -202,7 +202,7 @@ export default function Home() {
               </div>
 
               {/* Video Section */}
-              <div>
+              <div className="mt-24">
                 <h3 className="text-2xl md:text-3xl font-bold mb-3 bg-gradient-to-br from-sky-400 via-blue-500 to-sky-600 bg-clip-text text-transparent">
                   Demo Video
                 </h3>
