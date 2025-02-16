@@ -237,16 +237,21 @@ export default function Home() {
 
             <div className="relative max-w-5xl mx-auto">
               {/* Connecting Line */}
-              <div className="absolute top-1/2 left-0 w-full h-1 bg-gradient-to-r from-sky-600/20 via-blue-500/20 to-sky-600/20 -translate-y-1/2 z-0"></div>
+              <div className="absolute top-1/2 left-0 w-full h-0.5 bg-gradient-to-r from-sky-600/0 via-sky-500/50 to-sky-600/0 -translate-y-1/2 z-0 blur-sm"></div>
+              <div className="absolute top-1/2 left-0 w-full h-px bg-gradient-to-r from-sky-600/0 via-sky-500/20 to-sky-600/0 -translate-y-1/2 z-0"></div>
 
               {/* Stages */}
               <div className="relative z-10 grid grid-cols-1 md:grid-cols-3 gap-8">
                 {/* Stage 1 */}
                 <div className="relative group">
-                  <div className="bg-[#011829]/50 backdrop-blur-sm border border-white/10 p-8 rounded-xl shadow-2xl">
-                    <div className="text-sky-400 font-semibold mb-2">Stage 1:</div>
-                    <h3 className="text-xl font-bold text-white mb-4">Mantie Hackathon MVP</h3>
-                    <p className="text-gray-400 mb-4">Customizable ElizaOS deployment</p>
+                  <div className="bg-[#011829]/50 backdrop-blur-sm border border-white/10 p-8 rounded-xl shadow-2xl h-full transition-all duration-300 group-hover:border-sky-500/20 group-hover:bg-[#011829]/60">
+                    <div className="flex flex-col justify-between h-full">
+                      <div>
+                        <div className="text-sky-400 font-semibold mb-2">Stage 1:</div>
+                        <h3 className="text-xl font-bold text-white mb-4">Mantie Hackathon MVP</h3>
+                      </div>
+                      <p className="text-gray-400">Customizable ElizaOS deployment</p>
+                    </div>
                   </div>
                   {/* Arrow for desktop */}
                   <div className="hidden md:block absolute -right-4 top-1/2 w-8 h-8 -translate-y-1/2 text-sky-500/50">
@@ -258,10 +263,14 @@ export default function Home() {
 
                 {/* Stage 2 */}
                 <div className="relative group">
-                  <div className="bg-[#011829]/50 backdrop-blur-sm border border-white/10 p-8 rounded-xl shadow-2xl">
-                    <div className="text-sky-400 font-semibold mb-2">Stage 2:</div>
-                    <h3 className="text-xl font-bold text-white mb-4">AIaaS unlocked by $AIDEN holding</h3>
-                    <p className="text-gray-400 mb-4">ElizaOS, arc, G.A.M.E., LangChain frameworks</p>
+                  <div className="bg-[#011829]/50 backdrop-blur-sm border border-white/10 p-8 rounded-xl shadow-2xl h-full transition-all duration-300 group-hover:border-sky-500/20 group-hover:bg-[#011829]/60">
+                    <div className="flex flex-col justify-between h-full">
+                      <div>
+                        <div className="text-sky-400 font-semibold mb-2">Stage 2:</div>
+                        <h3 className="text-xl font-bold text-white mb-4">AIaaS unlocked by $AIDEN holding</h3>
+                      </div>
+                      <p className="text-gray-400">ElizaOS, arc, G.A.M.E., LangChain frameworks</p>
+                    </div>
                   </div>
                   {/* Arrow for desktop */}
                   <div className="hidden md:block absolute -right-4 top-1/2 w-8 h-8 -translate-y-1/2 text-sky-500/50">
@@ -273,10 +282,14 @@ export default function Home() {
 
                 {/* Stage 3 */}
                 <div className="relative group">
-                  <div className="bg-[#011829]/50 backdrop-blur-sm border border-white/10 p-8 rounded-xl shadow-2xl">
-                    <div className="text-sky-400 font-semibold mb-2">Stage 3:</div>
-                    <h3 className="text-xl font-bold text-white mb-4">AI-Cloud Platform</h3>
-                    <p className="text-gray-400 mb-4">Agentic chain integrations and automated re-training</p>
+                  <div className="bg-[#011829]/50 backdrop-blur-sm border border-white/10 p-8 rounded-xl shadow-2xl h-full transition-all duration-300 group-hover:border-sky-500/20 group-hover:bg-[#011829]/60">
+                    <div className="flex flex-col justify-between h-full">
+                      <div>
+                        <div className="text-sky-400 font-semibold mb-2">Stage 3:</div>
+                        <h3 className="text-xl font-bold text-white mb-4">AI-Cloud Platform</h3>
+                      </div>
+                      <p className="text-gray-400">Agentic chain integrations and automated re-training</p>
+                    </div>
                   </div>
                 </div>
               </div>

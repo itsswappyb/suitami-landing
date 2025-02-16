@@ -26,6 +26,7 @@ All notable changes to the Suitami Landing project will be documented in this fi
   - Stage 1: Mantie Hackathon MVP
   - Stage 2: AIaaS unlocked by $AIDEN holding
   - Stage 3: AI-Cloud Platform
+  - Enhanced with hover effects, glowing connectors, and symmetric layout
 
 ### Changed
 - Removed X social media link from header
