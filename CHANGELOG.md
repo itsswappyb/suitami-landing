@@ -21,6 +21,11 @@ All notable changes to the Suitami Landing project will be documented in this fi
 - Added descriptive labels below orbits:
   - Inner orbit: "Community Management"
   - Outer orbit: "Community Engagement"
+- Added demo video showcasing Aiden's capabilities
+- Added roadmap section with three stages:
+  - Stage 1: Mantie Hackathon MVP
+  - Stage 2: AIaaS unlocked by $AIDEN holding
+  - Stage 3: AI-Cloud Platform
 
 ### Changed
 - Removed X social media link from header
@@ -62,6 +67,8 @@ All notable changes to the Suitami Landing project will be documented in this fi
   - Added ring-shaped hover area between orbits for "Community Engagement" text
   - Positioned hover texts strategically for better readability
 - Increased Eliza logo size to 384px height and adjusted position
+- Simplified section structure by removing redundant "How it Works" title
+- Added separate titles and descriptions for architecture and video sections
 
 ### Fixed
 - Resolved dependency issues with @tailwindcss/aspect-ratio plugin
