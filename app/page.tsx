@@ -248,7 +248,7 @@ export default function Home() {
                     <div className="flex flex-col justify-between h-full">
                       <div>
                         <div className="text-sky-400 font-semibold mb-2">Stage 1:</div>
-                        <h3 className="text-xl font-bold text-white mb-4">Mantie Hackathon MVP</h3>
+                        <h3 className="text-xl font-bold text-white mb-4">Mantle Hackathon MVP</h3>
                       </div>
                       <p className="text-gray-400">Customizable ElizaOS deployment</p>
                     </div>

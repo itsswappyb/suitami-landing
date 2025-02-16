@@ -23,7 +23,7 @@ All notable changes to the Suitami Landing project will be documented in this fi
   - Outer orbit: "Community Engagement"
 - Added demo video showcasing Aiden's capabilities
 - Added roadmap section with three stages:
-  - Stage 1: Mantie Hackathon MVP
+  - Stage 1: Mantle Hackathon MVP
   - Stage 2: AIaaS unlocked by $AIDEN holding
   - Stage 3: AI-Cloud Platform
   - Enhanced with hover effects, glowing connectors, and symmetric layout
