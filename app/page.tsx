@@ -17,25 +17,21 @@ export default function Home() {
     <div className="min-h-screen bg-gradient-to-b from-[#011829] via-[#030f1c] to-black">
       <header className="fixed top-0 w-full bg-[#011829]/80 backdrop-blur-sm z-50 border-b border-white/10">
         <div className="container mx-auto flex items-center justify-between h-16 px-4">
-          <div className="flex items-center space-x-8">
-            <Link href="/" className="flex items-center space-x-2">
-              <Image
-                src="/aiden-logo.png"
-                alt="Aiden Logo"
-                width={120}
-                height={60}
-                priority
-                className="h-24 w-auto"
-              />
-            </Link>
-          </div>
-          <div className="flex items-center gap-4">
-            <Link href="https://aiden.so">
-              <Button className="bg-sky-600 hover:bg-sky-500 hover:scale-105 transition-all duration-300 text-white font-semibold shadow-lg shadow-sky-500/20 hover:shadow-sky-500/40 border border-sky-400/20">
-                Launch App
-              </Button>
-            </Link>
-          </div>
+          <Link href="/" className="flex items-center space-x-2">
+            <Image
+              src="/suitami-nav-logo-transparent.png"
+              alt="Suitami Logo"
+              width={120}
+              height={60}
+              priority
+              className="h-24 w-auto"
+            />
+          </Link>
+          <Link href="https://app.deform.cc/form/ef6789f8-d634-40a2-bd59-f32da08c81f0">
+            <Button className="bg-sky-500 hover:bg-sky-600 text-white">
+              Get Access
+            </Button>
+          </Link>
         </div>
       </header>
 
@@ -45,30 +41,31 @@ export default function Home() {
           <div className="container mx-auto px-4 text-center relative z-10">
             <div className="inline-flex items-center bg-sky-500/10 rounded-full px-4 py-1 mb-8">
               <Bot className="w-4 h-4 text-sky-500 mr-2" />
-              <span className="text-sm text-sky-400 font-medium">
-                Aiden AI
-              </span>
+              <span className="text-sm text-sky-400 font-medium">Aiden AI</span>
             </div>
             <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-6 bg-gradient-to-br from-sky-400 via-blue-500 to-sky-600 bg-clip-text text-transparent">
               Aiden - The Management System for all your AI Agents
             </h1>
             <p className="text-gray-400 text-xl mb-8 max-w-2xl mx-auto">
-              Deploy, train, manage and nurture your AI agents. Automate DAO workflows.
+              Deploy, train, manage and nurture your AI agents. Automate DAO
+              workflows.
             </p>
             <div className="flex justify-center gap-4 mb-12">
-              <Link href="https://aiden.so">
+              <Link href="https://app.deform.cc/form/ef6789f8-d634-40a2-bd59-f32da08c81f0">
                 <Button
                   size="lg"
                   className="bg-sky-600 hover:bg-sky-500 hover:scale-105 transition-all duration-300 text-white font-semibold tracking-wide shadow-lg shadow-sky-500/20 hover:shadow-sky-500/40 border border-sky-400/20 px-8"
                 >
-                  Launch App
+                  Get Access
                 </Button>
               </Link>
             </div>
 
             {/* Powered By Section */}
             <div className="mb-4 -mt-12 overflow-hidden">
-              <span className="text-sm text-gray-400/70 block mb-0">Powered by:</span>
+              <span className="text-sm text-gray-400/70 block mb-0">
+                Powered by:
+              </span>
               <div className="flex items-center justify-center">
                 <Image
                   src="/eliza.png"
@@ -85,7 +82,9 @@ export default function Home() {
               <div className="absolute w-[400px] h-[400px] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full group/outer hover:bg-[#011829]/5 transition-colors">
                 {/* Inner cutout to prevent hover in center */}
                 <div className="absolute w-[184px] h-[184px] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#030f1c]"></div>
-                <span className="absolute text-gray-500/50 text-sm font-medium left-1/2 translate-y-[420px] -translate-x-1/2 opacity-0 group-hover/outer:opacity-100 transition-opacity duration-300 whitespace-nowrap">Community Engagement</span>
+                <span className="absolute text-gray-500/50 text-sm font-medium left-1/2 translate-y-[420px] -translate-x-1/2 opacity-0 group-hover/outer:opacity-100 transition-opacity duration-300 whitespace-nowrap">
+                  Community Engagement
+                </span>
               </div>
 
               {/* Center Logo with inner hover area */}
@@ -98,10 +97,12 @@ export default function Home() {
                     height={192}
                     className="w-full h-full object-cover opacity-25 group-hover/inner:opacity-0 transition-opacity duration-300"
                   />
-                  <span className="absolute text-gray-500/50 text-sm font-medium left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 opacity-0 group-hover/inner:opacity-100 transition-opacity duration-300 whitespace-nowrap">Community Management</span>
+                  <span className="absolute text-gray-500/50 text-sm font-medium left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 opacity-0 group-hover/inner:opacity-100 transition-opacity duration-300 whitespace-nowrap">
+                    Community Management
+                  </span>
                 </div>
               </div>
-              
+
               <OrbitingCircles iconSize={15} radius={92}>
                 <div className="relative group w-6 h-6 flex items-center justify-center">
                   <div className="scale-[0.35] relative">
@@ -185,7 +186,8 @@ export default function Home() {
                   Architecture Overview
                 </h3>
                 <p className="text-gray-400 text-lg mb-8 max-w-2xl mx-auto">
-                  A comprehensive platform for creating, training, and managing AI agents
+                  A comprehensive platform for creating, training, and managing
+                  AI agents
                 </p>
                 <div className="max-w-4xl mx-auto">
                   <div className="overflow-hidden rounded-xl border border-white/10 shadow-2xl">
@@ -247,16 +249,32 @@ export default function Home() {
                   <div className="bg-[#011829]/50 backdrop-blur-sm border border-white/10 p-8 rounded-xl shadow-2xl h-full transition-all duration-300 group-hover:border-sky-500/20 group-hover:bg-[#011829]/60">
                     <div className="flex flex-col justify-between h-full">
                       <div>
-                        <div className="text-sky-400 font-semibold mb-2">Stage 1:</div>
-                        <h3 className="text-xl font-bold text-white mb-4">Mantle Hackathon MVP</h3>
+                        <div className="text-sky-400 font-semibold mb-2">
+                          Stage 1:
+                        </div>
+                        <h3 className="text-xl font-bold text-white mb-4">
+                          Mantle Hackathon MVP
+                        </h3>
                       </div>
-                      <p className="text-gray-400">Customizable ElizaOS deployment</p>
+                      <p className="text-gray-400">
+                        Customizable ElizaOS deployment
+                      </p>
                     </div>
                   </div>
                   {/* Arrow for desktop */}
                   <div className="hidden md:block absolute -right-4 top-1/2 w-8 h-8 -translate-y-1/2 text-sky-500/50">
-                    <svg viewBox="0 0 24 24" fill="none" className="w-full h-full">
-                      <path d="M5 12h14m-4 4l4-4-4-4" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      className="w-full h-full"
+                    >
+                      <path
+                        d="M5 12h14m-4 4l4-4-4-4"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
                     </svg>
                   </div>
                 </div>
@@ -266,16 +284,32 @@ export default function Home() {
                   <div className="bg-[#011829]/50 backdrop-blur-sm border border-white/10 p-8 rounded-xl shadow-2xl h-full transition-all duration-300 group-hover:border-sky-500/20 group-hover:bg-[#011829]/60">
                     <div className="flex flex-col justify-between h-full">
                       <div>
-                        <div className="text-sky-400 font-semibold mb-2">Stage 2:</div>
-                        <h3 className="text-xl font-bold text-white mb-4">AIaaS unlocked by $AIDEN holding</h3>
+                        <div className="text-sky-400 font-semibold mb-2">
+                          Stage 2:
+                        </div>
+                        <h3 className="text-xl font-bold text-white mb-4">
+                          AIaaS unlocked by $AIDEN holding
+                        </h3>
                       </div>
-                      <p className="text-gray-400">ElizaOS, arc, G.A.M.E., LangChain frameworks</p>
+                      <p className="text-gray-400">
+                        ElizaOS, arc, G.A.M.E., LangChain frameworks
+                      </p>
                     </div>
                   </div>
                   {/* Arrow for desktop */}
                   <div className="hidden md:block absolute -right-4 top-1/2 w-8 h-8 -translate-y-1/2 text-sky-500/50">
-                    <svg viewBox="0 0 24 24" fill="none" className="w-full h-full">
-                      <path d="M5 12h14m-4 4l4-4-4-4" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      className="w-full h-full"
+                    >
+                      <path
+                        d="M5 12h14m-4 4l4-4-4-4"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
                     </svg>
                   </div>
                 </div>
@@ -285,10 +319,16 @@ export default function Home() {
                   <div className="bg-[#011829]/50 backdrop-blur-sm border border-white/10 p-8 rounded-xl shadow-2xl h-full transition-all duration-300 group-hover:border-sky-500/20 group-hover:bg-[#011829]/60">
                     <div className="flex flex-col justify-between h-full">
                       <div>
-                        <div className="text-sky-400 font-semibold mb-2">Stage 3:</div>
-                        <h3 className="text-xl font-bold text-white mb-4">AI-Cloud Platform</h3>
+                        <div className="text-sky-400 font-semibold mb-2">
+                          Stage 3:
+                        </div>
+                        <h3 className="text-xl font-bold text-white mb-4">
+                          AI-Cloud Platform
+                        </h3>
                       </div>
-                      <p className="text-gray-400">Agentic chain integrations and automated re-training</p>
+                      <p className="text-gray-400">
+                        Agentic chain integrations and automated re-training
+                      </p>
                     </div>
                   </div>
                 </div>
