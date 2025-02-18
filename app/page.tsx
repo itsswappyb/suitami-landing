@@ -19,12 +19,12 @@ export default function Home() {
         <div className="container mx-auto flex items-center justify-between h-16 px-4">
           <Link href="/" className="flex items-center space-x-2">
             <Image
-              src="/suitami-nav-logo-transparent.png"
-              alt="Suitami Logo"
-              width={120}
+              src="/aiden-logo.png"
+              alt="Aiden Logo"
+              width={80}
               height={60}
               priority
-              className="h-24 w-auto"
+              className=""
             />
           </Link>
           <Link href="https://app.deform.cc/form/ef6789f8-d634-40a2-bd59-f32da08c81f0">
