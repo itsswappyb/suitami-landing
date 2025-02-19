@@ -4,6 +4,7 @@ import { Bot } from "lucide-react";
 import { Icons } from "@/components/ui/icons";
 import { OrbitingCircles } from "@/components/magicui/orbiting-circles";
 import Image from "next/image";
+import { AIDEN_WAITLIST_LINK } from "@/lib/constants";
 
 /**
  * Changelog:
@@ -27,7 +28,7 @@ export default function Home() {
               className=""
             />
           </Link>
-          <Link href="https://app.deform.cc/form/ef6789f8-d634-40a2-bd59-f32da08c81f0">
+          <Link href={AIDEN_WAITLIST_LINK}>
             <Button className="bg-sky-500 hover:bg-sky-600 text-white">
               Get Access
             </Button>
@@ -51,7 +52,7 @@ export default function Home() {
               workflows.
             </p>
             <div className="flex justify-center gap-4 mb-12">
-              <Link href="https://app.deform.cc/form/ef6789f8-d634-40a2-bd59-f32da08c81f0">
+              <Link href={AIDEN_WAITLIST_LINK}>
                 <Button
                   size="lg"
                   className="bg-sky-600 hover:bg-sky-500 hover:scale-105 transition-all duration-300 text-white font-semibold tracking-wide shadow-lg shadow-sky-500/20 hover:shadow-sky-500/40 border border-sky-400/20 px-8"
