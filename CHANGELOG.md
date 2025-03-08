@@ -21,7 +21,7 @@ All notable changes to the Suitami Landing project will be documented in this fi
 - Added descriptive labels below orbits:
   - Inner orbit: "Community Management"
   - Outer orbit: "Community Engagement"
-- Added demo video showcasing Aiden's capabilities
+- Added demo video showcasing Aiden's capabilities (updated June 2024)
 - Added roadmap section with three stages:
   - Stage 1: Mantle Hackathon MVP
   - Stage 2: AIaaS unlocked by $AIDEN holding

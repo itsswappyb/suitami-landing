@@ -230,7 +230,7 @@ export default function Home() {
                 <div className="max-w-4xl mx-auto bg-[#001324]/50 rounded-xl overflow-hidden shadow-2xl border border-white/10">
                   <div className="aspect-w-16 aspect-h-9">
                     <iframe
-                      src="https://www.youtube.com/embed/nfEAf-yqIsE"
+                      src="https://www.youtube.com/embed/wzSDi9dV_Vk"
                       title="Aiden Demo"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                       allowFullScreen
