@@ -27,6 +27,8 @@ All notable changes to the Suitami Landing project will be documented in this fi
   - Stage 2: AIaaS unlocked by $AIDEN holding
   - Stage 3: AI-Cloud Platform
   - Enhanced with hover effects, glowing connectors, and symmetric layout
+- Added Virtuals logo in the "Powered by" section next to Eliza logo
+- Added Mantle logo below the main CTA button
 
 ### Changed
 - Removed X social media link from header
@@ -70,6 +72,9 @@ All notable changes to the Suitami Landing project will be documented in this fi
 - Increased Eliza logo size to 384px height and adjusted position
 - Simplified section structure by removing redundant "How it Works" title
 - Added separate titles and descriptions for architecture and video sections
+- Reverted CTA buttons from "Test the Beta" back to "Get Access"
+- Changed link destination from waitlist form to direct beta app access
+- Removed "Powered by:" text while keeping the partner logos
 
 ### Fixed
 - Resolved dependency issues with @tailwindcss/aspect-ratio plugin

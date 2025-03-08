@@ -62,18 +62,33 @@ export default function Home() {
               </Link>
             </div>
 
+            {/* Mantle Logo */}
+            <div className="mb-8 -mt-4">
+              <Image
+                src="/mantle-mnt-logo.png"
+                alt="Mantle Logo"
+                width={500}
+                height={200}
+                className="h-12 w-auto mx-auto object-contain opacity-70 hover:opacity-90 transition-opacity"
+              />
+            </div>
+
             {/* Powered By Section */}
             <div className="mb-4 -mt-12 overflow-hidden">
-              <span className="text-sm text-gray-400/70 block mb-0">
-                Powered by:
-              </span>
-              <div className="flex items-center justify-center">
+              <div className="flex items-center justify-center gap-8">
                 <Image
                   src="/eliza.png"
                   alt="Eliza Logo"
                   width={1000}
                   height={400}
                   className="h-96 w-auto object-contain opacity-60 hover:opacity-80 transition-opacity"
+                />
+                <Image
+                  src="/virtuals.png"
+                  alt="Virtuals Logo"
+                  width={1000}
+                  height={400}
+                  className="h-40 w-auto object-contain opacity-60 hover:opacity-80 transition-opacity"
                 />
               </div>
             </div>
